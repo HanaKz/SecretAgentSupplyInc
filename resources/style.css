@@ -1,7 +1,5 @@
 html {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   font-size: 18px;
   width: 960px;
 
@@ -22,8 +20,10 @@ height: 40px;
 }
 
 .banner {
-  background-image: url(./resources/images/moto.jpeg);
+  background-image: url("./images/moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 25rem;
+
 }
