@@ -1,29 +1,235 @@
+/* the css for the entire container */
+@media only screen and (max-width: 1024px){
+.mobile-nav {
+  display: block;
+  text-align: center;
+
+  }
+
+.column {
+  width: 47%;
+
+}
+
+.column .third {
+  display: none;
+
+}
+
+body {
+  16px;
+}
+
+nav ul {
+  display: none;
+
+}
+
+.location {
+  width: 35%;
+
+}
+}
+
+@media only screen and (max-width: 470px){}
+
 html {
-
   font-size: 18px;
-  width: 960px;
 
 }
 
+
+body  {
+
+  line-height: 1.4em;
+
+}
 .header {
-background-color: black;
-width: 100%;
-height: 40px;
+  background-color: black;
+  color: white;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  padding: 24px 0 24px 0.5em;
 
 }
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
 
 .header img {
   height: 1.5rem;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
 
 }
 
+.header h4 {
+  font-family: Helvetica;
+  font-size: 1em;
+  padding: 1rem auto;
+
+}
+
+/* banner */
 .banner {
   background-image: url("./images/moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 25rem;
+
+}
+
+.banner-content {
+  top: 9rem;
+  background-color: black;
+  color: white;
+  width: 20em;
+  padding: 2em 3em;
+  position: relative;
+
+}
+
+.banner-content h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+.banner-content h1 {
+  font-family: Helvetica;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+
+}
+
+/* navigation tab */
+
+.mobile-nav {
+  display: none;
+
+}
+
+.navigationtab li {
+  display: inline;
+
+}
+
+.navigationtab {
+  background-color: firebrick;
+  text align: center;
+  color: white;
+
+}
+
+nav ul {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 0.75em 0;
+  list-style: none;
+  font-family: Helvetica;
+  font-size: 1em;
+
+}
+
+
+/* 3 column product section */
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 0 0;
+
+}
+
+.column {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  text-align: center;
+  background-color: white;
+
+}
+
+.description {
+  background-color: black;
+  color: white;
+  display: block;
+  font-family: Helvetica;
+  font-size: 1em;
+  text-align: center;
+  padding: 0.5em;
+
+}
+
+
+
+.pimage {
+  border: 4px solid black;
+  padding: 2em 0;
+  height: 9em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.pimage img {
+  max-width: 8em;
+
+}
+
+/* 2 column location/hours section */
+.locations {
+  margin: 3em 0 4em 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.ttl {
+  display: block;
+  background-color: black;
+  padding: 1em 2em;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1em;
+
+}
+
+.location {
+  display: inline-block;
+  width: 35%;
+
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  padding-top: 5em;
+  margin-top: 4em;
+  text-align: left;
+  color: white;
+  height: 10em;
+
+}
+
+.footer {
+  font-family: 'Helvetica';
+  font-size: 1em;
+  padding-top: 5em;
 
 }
